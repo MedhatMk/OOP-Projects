@@ -20,9 +20,6 @@ class BankAccount():
     def display(self):
         print("Name:", self.name)
         print("Balance:", self.balance)
-    # Method to display account balance
-    def balance(self):
-        print("Balance:", self.balance)
     
 # Create an object of the class
 account = BankAccount("John", 1000)
@@ -30,11 +27,9 @@ account = BankAccount("John", 1000)
 account.display()
 # Deposit money
 account.deposit(500)
-# Display account balance
-account.balance()
+# Display account details
+account.display()
 # Withdraw money
 account.withdraw(2000)
 # Display account details
 account.display()
-# Display account balance
-account.balance()
