@@ -1,2 +1,2 @@
 # OOP-Projects
-oop projects in pythoon
+oop projects in python
